@@ -1,0 +1,164 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admin-dashboard h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .admin-section {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .admin-section h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input {
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #667eea;
+  }
+  
+  button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .car-listing, .request-listing {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .car-listing:hover, .request-listing:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .car-listing h3, .request-listing h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .car-listing p, .request-listing p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .car-listing h2, .request-listing h2 {
+    font-size: 1.75rem;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+  }
+  
+  .request-listing button {
+    background: linear-gradient(135deg, #4caf50 0%, #81c784 100%);
+    margin-top: 0.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .admin-dashboard h1 {
+      font-size: 2rem;
+    }
+  
+    .admin-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    input, button {
+      padding: 10px 18px;
+      font-size: 0.9rem;
+    }
+  
+    .car-listing h3, .request-listing h3 {
+      font-size: 1.25rem;
+    }
+  
+    .car-listing h2, .request-listing h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .admin-dashboard h1 {
+      font-size: 1.75rem;
+    }
+  
+    .admin-section h2 {
+      font-size: 1.25rem;
+    }
+  
+    input, button {
+      padding: 8px 16px;
+      font-size: 0.85rem;
+    }
+  
+    .car-listing h3, .request-listing h3 {
+      font-size: 1rem;
+    }
+  
+    .car-listing h2, .request-listing h2 {
+      font-size: 1.25rem;
+    }
+  }

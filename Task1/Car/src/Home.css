@@ -1,0 +1,89 @@
+/* Home Page Styles */
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #222;
+  color: white;
+}
+
+.nav-links .nav-button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-links .nav-button:hover {
+  background-color: #e0484e;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: url("https://source.unsplash.com/1600x500/?car,showroom") no-repeat center center/cover;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.explore-button {
+  background: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.explore-button:hover {
+  background: #e0484e;
+}
+
+/* Featured Cars */
+.featured-cars {
+  padding: 40px;
+  text-align: center;
+}
+
+.car-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.car-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.car-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.car-card p {
+  margin-top: 10px;
+  font-weight: bold;
+}

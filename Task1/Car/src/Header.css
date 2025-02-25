@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+}
+
+.header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header a, .header button {
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* .header button {
+  background: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+} */
