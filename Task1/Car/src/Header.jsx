@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>DS CARS14</h1>
+      <h1>Charan's Cars</h1>
       <nav>
         <Link to="/">Home</Link>
         {user ? (
